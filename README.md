@@ -2,8 +2,8 @@
 A line follower robot that can follow a curvilinear path directed by a line, where both are of different colours.
 It uses the Proportional, Integral & Derivative functions to calculate the error and hence, improve the movement of the robot.
 
-Resources
-  https://www.pololu.com/docs/0J19/all
+Resources 
+  - https://www.pololu.com/docs/0J19/all
   
 Components Used
   - Arduino Nano
