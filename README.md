@@ -1,2 +1,27 @@
 # PID-Line-Follower-Robot
-A PID Line Follower Robot
+A line follower robot that can follow a curvilinear path directed by a line, where both are of different colours.
+It uses the Proportional, Integral & Derivative functions to calculate the error and hence, improve the movement of the robot.
+
+Resources
+  https://www.pololu.com/docs/0J19/all
+  
+Components Used
+  - Arduino Nano
+  - QTR-8A Reflectance Sensor Array
+  - L293D Motor Driver/ TB6612FNG Driver
+  - 2 x N20-6V-300 Rpm Micro Metal Gear Motor
+  - 2 x Pololu Wheel 42x19mm
+  - 7.4V Lipo Battery
+  
+![WhatsApp Image 2021-01-10 at 18 55 35 (2)](https://user-images.githubusercontent.com/56078295/104503254-d2b80580-5606-11eb-96f2-afe145f46ba5.jpeg)
+
+# ERROR CALCULATION AND SPEED CONTROL
+    int error = position - 3500;
+    int motorSpeed = Kp * error + Kd * (error - lastError);
+    lastError = error;
+    int rightMotorSpeed = BaseSpeed + motorSpeed;
+    int leftMotorSpeed = BaseSpeed - motorSpeed;
+    
+
+![WhatsApp Image 2021-01-10 at 18 55 35 (1)](https://user-images.githubusercontent.com/56078295/104503321-e8c5c600-5606-11eb-8430-e149959d9270.jpeg)
+
