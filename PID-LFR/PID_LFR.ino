@@ -8,8 +8,8 @@ uint16_t sensorValues[SensorCount];
 #define Kd 40
 #define MaxSpeed 225
 #define BaseSpeed 155
-
 #define speedturn 100
+
 //int STBY = 10; 
 //Motor A
 int PWMA = 5; //for speed control
