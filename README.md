@@ -4,6 +4,7 @@ It uses the Proportional, Integral & Derivative functions to calculate the error
 
 Resources 
   - https://www.pololu.com/docs/0J19/all
+  - https://www.instructables.com/
   
 Components Used
   - Arduino Nano
@@ -25,3 +26,4 @@ Components Used
 
 ![WhatsApp Image 2021-01-10 at 18 55 35 (1)](https://user-images.githubusercontent.com/56078295/104503321-e8c5c600-5606-11eb-8430-e149959d9270.jpeg)
 
+The maximum speed has been set to 225, the base speed is 155 and the turning speed is set to 100. All of which can be changed to 255(max. speed) if needed. 
