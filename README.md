@@ -1,6 +1,6 @@
 # PID-Line-Follower-Robot
 A line follower robot that can follow a curvilinear path directed by a line, where both are of different colours.
-It uses the Proportional, Integral & Derivative functions to calculate the error and hence, improve the movement of the robot.
+It uses the Proportional, Integral & Derivative functions to calculate the error and tries to minimize that error so as to improve the movement of the robot.
 
 Resources 
   - https://www.pololu.com/docs/0J19/all
@@ -15,6 +15,11 @@ Components Used
   - 7.4V Lipo Battery
   
 ![WhatsApp Image 2021-01-10 at 18 55 35 (2)](https://user-images.githubusercontent.com/56078295/104503254-d2b80580-5606-11eb-96f2-afe145f46ba5.jpeg)
+
+#The Equation
+P, I, and D are represented by the three terms that add together here. Kp, Ki, and Kd are constants that tune how the system reacts to each factor - 
+![Screenshot 2021-07-15 at 2 23 04 AM](https://user-images.githubusercontent.com/56078295/125691411-64de914d-1d6a-4362-bcc7-d844ce483c3b.png)
+
 
 # ERROR CALCULATION AND SPEED CONTROL
     int error = position - 3500;
