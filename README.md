@@ -16,8 +16,9 @@ Components Used
   
 ![WhatsApp Image 2021-01-10 at 18 55 35 (2)](https://user-images.githubusercontent.com/56078295/104503254-d2b80580-5606-11eb-96f2-afe145f46ba5.jpeg)
 
-#The Equation
-P, I, and D are represented by the three terms that add together here. Kp, Ki, and Kd are constants that tune how the system reacts to each factor - 
+# The Equation
+P, I, and D are represented by the three terms that add together here. Kp, Ki, and Kd are constants that tune how the system reacts to each factor.
+
 ![Screenshot 2021-07-15 at 2 23 04 AM](https://user-images.githubusercontent.com/56078295/125691411-64de914d-1d6a-4362-bcc7-d844ce483c3b.png)
 
 
